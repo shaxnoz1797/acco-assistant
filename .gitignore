@@ -1,0 +1,44 @@
+# Kutubxonalar (Eng muhimi, buni aslo push qilib bo'lmaydi)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python virtual muhiti
+.venv/
+venv/
+ENV/
+
+
+
+# PyCharm va IDE sozlamalari
+.idea/
+.vscode/
+
+# Maxfiy fayllar
+.env
+
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log fayllar
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Maxfiy ma'lumotlar (Tokenlar, parollar bo'lishi mumkin)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tizim fayllari
+DS_Store
+thumbs.db
+db.sqlite3
+db.sqlite3-journal
